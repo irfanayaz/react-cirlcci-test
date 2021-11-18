@@ -35,4 +35,4 @@ jobs:
 
       - codecov/upload:
           file: ./coverage/clover.xml 
-          token: e57e1e11-86f6-49c6-9338-f673edf37479
+          token: ${CODECOV_TOKEN}
