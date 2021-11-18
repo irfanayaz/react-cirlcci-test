@@ -34,7 +34,8 @@ jobs:
       - run: npm run test:coverage
 
       - codecov/upload:
-          file: './coverage/clover.xml'
+          file: ./coverage/clover.xml 
+          token: e57e1e11-86f6-49c6-9338-f673edf37479
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
